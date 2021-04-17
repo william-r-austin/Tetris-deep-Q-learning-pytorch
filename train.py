@@ -9,7 +9,8 @@ from random import random, randint, sample
 import numpy as np
 import torch
 import torch.nn as nn
-from tensorboardX import SummaryWriter
+#from tensorboardX import SummaryWriter
+from torch.utils.tensorboard import SummaryWriter
 
 from src.deep_q_network import DeepQNetwork
 from src.tetris import Tetris
